@@ -1,38 +1,37 @@
-# create-svelte
+# My Devlog - Building a Game with Rust and Bevy
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+This is my personal devlog website, (And by first application) built with [SvelteKit](https://kit.svelte.dev/), where I journal the challenges and experiences I face while building a game using Rust and the Bevy engine. The purpose of this site is to document my learning process, share insights, and track progress as I dive into game development.
 
-## Creating a project
+## Project Overview
 
-If you're seeing this, you've probably already done this step. Congrats!
+The main features of this devlog include:
+- Regular updates about my game development journey.
+- Topics covering Rust, Bevy, and general game design.
+- Built using **SvelteKit** for fast and lightweight performance.
+- Styled with simple, clean designs for readability.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Current Features
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Future Plans
 
-## Developing
+- **Login Page**: Allow users to login and subscribe to posts. As well as let admins log in and create posts
+- **Game Demos**: Embedding or linking game demos to show progress in real-time.
+- **Comments Section**: Allow readers to engage and ask questions.
+- **Code Snippets**: Include specific coding solutions that I found useful.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Technologies Used
 
-```bash
-npm run dev
+- **SvelteKit**: The core framework for the project.
+- **Rust and Bevy**: The main focus of the devlog, used for the game development.
+- **Light Icons**: for icons
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## License
 
-## Building
+This project is open-source and available under the [MIT License](LICENSE).
 
-To create a production version of your app:
+## Contact
 
-```bash
-npm run build
-```
+Feel free to reach out if you have any questions or suggestions!
 
-You can preview the production build with `npm run preview`.
+- Email: []
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
