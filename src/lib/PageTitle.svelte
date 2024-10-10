@@ -1,7 +1,5 @@
 <script lang="ts">
 import { goto } from '$app/navigation';
-import ProfileButton from './ProfileButton.svelte';
-import ProfileDropDown from './ProfileDropDown.svelte';
 
 function returnHome() {
   goto('/');
@@ -14,7 +12,6 @@ function returnHome() {
       <i class="light-icon-home title"></i></button
     >
     <h1 class="title">Rustbound Adventures</h1>
-    <ProfileButton />
   </div>
 </div>
 
