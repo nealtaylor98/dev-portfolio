@@ -32,7 +32,6 @@
   },
   "type": "module",
   "dependencies": {
-    "light-icons": "^1.0.12",
     "postcss": "^8.4.47"
   }
 }
