@@ -28,6 +28,10 @@ h1 {
   font-weight: 600;
 }
 
+h2 {
+  font-weight: 500;
+}
+
 button {
   padding: 16px 16px;
   font-weight: 500;

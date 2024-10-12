@@ -12,6 +12,7 @@ export let text = '';
   text-decoration: none;
   color: black;
   font-weight: bold;
+  font-weight: 500;
 }
 
 .nav-link:hover {

@@ -4,7 +4,7 @@ import logoUrl from '/logo.svg';
 
 <div class="logo">
   <img src={logoUrl} alt="Logo" width="32" height="32" />
-  <span>Taylor Neal</span>
+  <span> Taylor Neal </span>
 </div>
 
 <style>
@@ -13,6 +13,6 @@ import logoUrl from '/logo.svg';
   align-items: center;
   gap: 0.5rem;
   font-size: 1.2rem;
-  font-weight: bold;
+  font-weight: 500;
 }
 </style>
