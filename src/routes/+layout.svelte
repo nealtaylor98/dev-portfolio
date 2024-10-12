@@ -1,10 +1,10 @@
 <script>
-import PageTitle from '$lib/PageTitle.svelte';
 import ContentArea from '$lib/ContentArea.svelte';
+import Navbar from '$lib/components/Navbar.svelte';
 import '../app.css';
 </script>
 
-<PageTitle />
+<Navbar />
 <ContentArea>
   <slot></slot>
 </ContentArea>
