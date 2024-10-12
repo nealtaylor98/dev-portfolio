@@ -11,7 +11,7 @@ import Splash from '$lib/components/Splash.svelte';
   />
   <h2>About Me</h2>
   <p>
-    G’day! I’m Taylor, a software engineer with a knack for crafting innovative solutions. While
+    G’day! I’m Taylor, a software engineer with a passion for crafting creative solutions. While
     I’ve honed my skills through professional experience for over a year, my journey in software
     development spans nearly five. My expertise lies in full-stack application development, where I
     thrive on bringing ideas to life through code. When I’m not at work, you’ll find me developing
