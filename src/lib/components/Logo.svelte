@@ -4,7 +4,7 @@ import logoUrl from '/logo.svg';
 
 <div class="logo">
   <img src={logoUrl} alt="Logo" width="32" height="32" />
-  <span>My Developer Portfolio</span>
+  <span>Taylor Neal</span>
 </div>
 
 <style>

@@ -2,7 +2,8 @@
 export let titleText: string;
 export let subTitleText: string;
 export let buttonText: string;
-export let buttonClick: () => void;
+export let buttonHref: string | null | undefined;
+export let buttonClick: () => void = () => {};
 export let imageUrl: string = '/header-image.jpg';
 </script>
 
@@ -13,7 +14,14 @@ export let imageUrl: string = '/header-image.jpg';
     <div class="splash-content">
       <h1>{titleText}</h1>
       <h2>{subTitleText}</h2>
-      <button class="download-button" on:click={buttonClick}>{buttonText}</button>
+
+      {#if buttonHref}
+        <a href={buttonHref} download>
+          <button class="download-button">{buttonText}</button>
+        </a>
+      {:else}
+        <button class="download-button" on:click={buttonClick}>{buttonText}</button>
+      {/if}
     </div>
   </div>
 </div>

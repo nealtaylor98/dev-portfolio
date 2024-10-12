@@ -21,6 +21,7 @@ body,
 
 body {
   background-color: var(--page-background);
+  font-weight: 300;
 }
 
 h1 {

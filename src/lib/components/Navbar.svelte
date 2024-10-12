@@ -26,27 +26,39 @@ import Button from './Button.svelte';
 <style>
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 1rem;
   background-color: #f8f8f8;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  padding: 30px;
+  top: 0;
+  z-index: 1000;
 }
 
 .navbar-content {
-  margin-left: 2vw;
-  margin-right: 2vw;
   display: flex;
+  justify-content: center;
   align-items: center;
   width: 100%;
-  justify-content: space-around;
+}
+
+.logo {
+  position: absolute;
+  left: 10vw;
+}
+
+.hire-button {
+  position: absolute;
+  right: 10vw;
 }
 
 .nav-links {
   display: flex;
+  justify-content: center;
   align-content: center;
   gap: 1rem;
-  margin-left: 1vw;
-  margin-right: 8vw;
+  flex-grow: 1;
 }
 </style>
