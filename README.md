@@ -10,5 +10,5 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 Feel free to reach out if you have any questions or suggestions!
 
-- Email: nealtaylor98@gmail.com
+- Email: taylorte2.dev@gmail.com
 
