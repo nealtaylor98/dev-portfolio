@@ -12,7 +12,6 @@ import Button from './Button.svelte';
 
     <div class="nav-links">
       <Navlink href="/" text="Home" />
-      <Navlink href="/services" text="Services" />
       <Navlink href="/portfolio" text="Portfolio" />
       <Navlink href="/blog" text="Blog" />
     </div>
