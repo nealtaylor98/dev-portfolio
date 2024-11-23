@@ -1,8 +1,12 @@
 <script lang="ts">
+import Button from './Button.svelte';
+import Grid from './Grid.svelte';
+import TechItem from './TechItem.svelte';
+
 export let titleText: string;
 export let subTitleText: string;
 export let buttonText: string;
-export let buttonHref: string | null | undefined;
+export let buttonHref: string;
 export let buttonClick: () => void = () => {};
 export let imageUrl: string = '/header-image.jpg';
 </script>
@@ -14,14 +18,13 @@ export let imageUrl: string = '/header-image.jpg';
     <div class="splash-content">
       <h1>{titleText}</h1>
       <h2>{subTitleText}</h2>
-
-      {#if buttonHref}
-        <a href={buttonHref} download>
-          <button class="download-button">{buttonText}</button>
-        </a>
-      {:else}
-        <button class="download-button" on:click={buttonClick}>{buttonText}</button>
-      {/if}
+      <Grid columns={2} width="50%">
+        <TechItem icon="A" name="React" />
+        <TechItem icon="A" name=".NET" />
+        <TechItem icon="A" name="Node" />
+        <TechItem icon="A" name="Svelte" />
+      </Grid>
+      <Button text={buttonText} {buttonHref} />
     </div>
   </div>
 </div>
@@ -30,7 +33,7 @@ export let imageUrl: string = '/header-image.jpg';
 .splash {
   position: relative;
   width: 100%;
-  height: 50vh;
+  height: 90vh;
   overflow: hidden;
   align-items: center;
   justify-content: center;
